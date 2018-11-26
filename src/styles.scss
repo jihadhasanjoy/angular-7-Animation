@@ -1,0 +1,118 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/* @import url('https://fonts.googleapis.com/css?family=Raleway:200,400'); */
+$primary-color: #272b2d;
+$secondary-color: #2e3437;
+$sub-txt: #6a6c6e;
+$dark-color: #232628;
+$highlight-color: #ff3a89;
+
+* {
+    font-family: 'Raleway';
+    font-size:20px;
+    color:#fff;
+}
+.nav{
+  width: 100%;
+  // background: #707374;
+}
+a{
+  color: #fff;
+  &:hover{
+    color: #6a6c6e
+  }
+}
+body {
+    background-color:$primary-color;
+    padding: 7rem 0;
+}
+.list-group-item{
+  background: $primary-color;
+}
+
+.panel {
+    background: $secondary-color;
+    padding:3rem;
+    width:100%;
+    margin-bottom:3rem;
+}
+
+input {
+    background:none;
+    border:none;
+    box-shadow:none;
+    border-bottom: 1px solid #4d575d;
+    font-size:1.9rem;
+    color:#fff;
+    font-weight:200;
+    padding: 0 0 15px 0;
+    &:focus{
+      // border: 2px solid $dark-color !important;
+    }
+}
+
+::-webkit-input-placeholder {
+   color: #707374 !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #707374 !important;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #707374 !important;
+}
+
+:-ms-input-placeholder {
+   color: #707374 !important;
+}
+p#subtxt {
+    color:$sub-txt;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-size:.7em;
+    margin-bottom:0;
+}
+
+.nplr {
+    padding-left:0;
+    padding-right:0;
+}
+
+.item-container {
+    background:$dark-color;
+    height:65px;
+    margin-bottom:2px;
+}
+
+.identifier {
+    background-color:$highlight-color;
+    width:1%;
+    display:inline;
+    float:left;
+    height:65px;
+}
+
+.item-container p, .item-container a {
+    display:inline;
+    float:left;
+}
+
+.item-container p {
+    width:85%;
+    margin:17px 0 0 0;padding:0;
+    text-indent:30px;
+}
+
+.item-container a {
+    width:11%;
+    margin-top:17px;
+    text-align:center;
+}
+
+
+h2 {
+    font-size:1.3rem;
+    margin-bottom: 20px;
+    text-transform:uppercase;
+}
